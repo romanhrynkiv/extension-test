@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.App {
+  text-align: center;
+  color: rgb(199, 198, 232);
+  background: linear-gradient(79deg, #271c3b, #352fdb 48%, #27366c);
+  padding: 20px;
+  width: 300px;
+}
+
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+button {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #25189a;
+  margin: 10px;
+}
+
+p {
+  font-size: 14px;
+  color: rgb(219, 232, 255);
+  margin: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 10px;
+}
