@@ -62,16 +62,13 @@ const App = () => {
 
   const handleSignIn = () => {
     chrome.storage.local.get(["secret"], (result) => {
-      console.log(result.secret);
-      console.log(localStorage.getItem("secret"));
       const decryptedSecret = decryptSecret(
         localStorage.getItem("secret"),
         password
       );
-      console.log(decryptedSecret);
+
 
       if (result.secret === decryptedSecret) {
-        console.log("asdasdsa");
         setLoggedIn(true);
       } else {
         alert("Invalid password.");
